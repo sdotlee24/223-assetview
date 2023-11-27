@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="screen" alignment="CENTER" prefHeight="531.0" prefWidth="561.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Button mnemonicParsing="false" onAction="#onTextButtonClick" text="Button" />
+   <TextField fx:id="textArea" />
+</VBox>
